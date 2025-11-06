@@ -316,6 +316,17 @@ body{
     margin-right: 32px;
     
    }
+   .nav__menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 16px;
+   }
+   .nav__menu :last-child{
+    margin-left: 4px;
+   }
+   .none2{
+    display: none;
+   }
    .block__title{
     
    }
@@ -333,25 +344,41 @@ body{
         height: 40px;
         margin-left: 8px;
         vertical-align: middle;
+    } 
+    .block__content_text:first-child{
+      width: 490px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #1B1C21;
+      margin-left: 38px;
+      
     }
     .text2{
         display: none;
     }
     .text3{
         display: inline-block;
-       
-        margin-left: -20px;
+        margin-left: -2px;
+        width: 490px;
         margin-top:  -0.1px;
         height: 90px;
+        
     }
     .block__details__summary{
-        margin-top: -10px;
+        margin-top: -25px;
     }
     .none1{
         display: inline-block;
         margin-left: 54px;
     }
-    .block__content_text{
-        margin-left: 32px;
+    .block__image_img{
+        width: 531px;
+        height: 307px;
+        margin-top: 32px;
+        margin-left: 0px;
+        margin-left: 36px;
     }
+   
 }
